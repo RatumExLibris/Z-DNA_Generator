@@ -50,6 +50,10 @@ dna_generator_model.compile(loss='categorical_crossentropy',
                             metrics=['accuracy']
                             )
 
+'''You can directly use the pre-trained model by uploading it here'''
+#Choose the model: DNA or z-DNA.
+#dna_generator_model = tf.keras.models.load_model(r'')
+
 # Train the model on the one-hot encoded DNA sequences
 '''Randomly zero out half of the nucleotides
         in your coded dataset, to improve
