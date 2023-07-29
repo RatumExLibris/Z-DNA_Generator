@@ -5,6 +5,7 @@ import tensorflow as tf
 sequence_length = 128
 num_nucleotides = 4
 
+#Choose the model: DNA or z-DNA.
 dna_generator_model = tf.keras.models.load_model(r'')
 
 # Generate new DNA sequences using the trained model
