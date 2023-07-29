@@ -11,9 +11,11 @@ pip install -r requirements.txt
 ```
 ## Model usage
 **Generation**
+
 To start generating DNA you need to run the DNA_Generator.py file in the main repository. Before running the program you need to set the loading model: DNA or z-DNA (all models are located in the DNA_models folder). This parameter will determine what kind of data the DNA generator will generate. To regulate the length of the generated sequence, set the required number in the variable "num_seq" (Remember that the generated sequence will be a multiple of 128).
 
 **Using a pre-trained model**
+
 The generator model code is located in the DNA_Generator_training_model folder. You can train the model from the beginning on new data or retrain existing models.
 
 ## z-DNA generator validator
